@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: black;
+  }
+  
+  .main {
+    background: url(/assest/bg.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: 50%;
+  }
+  
+  .btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(192, 28, 31);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+  }
+  
+  .main.container h1 span{
+    color: #af0000;
+  }
+  .clientsays .row .clientSays {
+    background: #fff;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 30px 30px 50px 30px;
+  }
+  .news{
+    background-color: black;
+    color: white;
+}
+.news input{
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;} 
+  .btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left:-10px ;
+    border: 2px solid white;
+    font-weight: 600;
+
+}
+.about {
+  background: url(/assest/grey.jpeg)no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: 50%;
+}
+.grid{
+  display: flex;
+  gap: 20px;
+  
+  padding: 10px;
+}
+.img{
+  border-radius: 30px;
+}
+.btn3 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
